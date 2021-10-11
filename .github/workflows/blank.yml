@@ -13,7 +13,7 @@ jobs:
   - uses: mr-smithers-excellent/docker-build-push@v5
     name: Build & push Docker image
     with:
-      image: hassandocker510
+      image: hassandocker510/first_d
       tags: v1, firts
       registry: docker.io
       dockerfile: Dockerfile
